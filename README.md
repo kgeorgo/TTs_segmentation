@@ -15,6 +15,7 @@ In the second example we show a confocal image (a) that underwent ridge detectio
 ![Github figure2](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/00fd0fa0-d6e1-4d30-b136-81890b3b935a)
 
 ## Disclaimer
+We present an approach to extract the TT and inter TT networks of primary cardiomyocytes using a combination of prebuilt ImageJ plugins, including [BioVoxxel 3D Box](https://github.com/biovoxxel/bv3dbox/blob/main/README.md), [Watershed](https://github.com/imagej/ImageJ/blob/v1.53q/src/main/java/ij/plugin/filter/EDM.java), and [Read and Write Excel](https://imagej.net/plugins/read-and-write-excel#disclaimers-and-licencing-stuff)  
 
-
-## License?
+## License
+?
