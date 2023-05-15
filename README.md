@@ -14,3 +14,7 @@ In the second example we show a confocal image (a) that underwent ridge detectio
 
 ![Github figure2](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/00fd0fa0-d6e1-4d30-b136-81890b3b935a)
 
+#### Disclaimer
+
+
+##### License?
