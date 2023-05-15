@@ -10,7 +10,7 @@ Here we show the image processing pipeline for segmentation using our custom mac
 
 ![Github figure1](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/799b65b6-fd06-4b33-8cd9-68490ae40946)
 
-In the second example we show a confocal image (a) that underwent ridge detection (BFL, Ridge Detector) (b) prior to the application of our custom macro. Similarly, the tubeness filter is applied on the binary image (c) and the image is inverted to bring the inter TT areas in the foreground. The watershed algorithm and particle analysis allow the extraction of all inter TT areas (d). An overlay of the extracted inte TT areas and the original confocal image is shown in (f).
+In the second example we show a confocal image (a) that underwent ridge detection (Biomedical Imaging Group, Ridge Detector) (b) prior to the application of our custom macro. Similarly, the tubeness filter is applied on the binary image (c) and the image is inverted to bring the inter TT areas in the foreground. The watershed algorithm and particle analysis allow the extraction of all inter TT areas (d). An overlay of the extracted inte TT areas and the original confocal image is shown in (f).
 
 ![Github figure2](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/00fd0fa0-d6e1-4d30-b136-81890b3b935a)
 
