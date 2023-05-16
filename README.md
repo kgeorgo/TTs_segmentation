@@ -8,16 +8,11 @@ To run the custom macro the installation of the [BioVoxxel 3D Box](https://githu
 ## Macro demonstration 
 Here we show the image processing pipeline for segmentation using our custom macro. The macro adjusts the adjust the contract of the original confocal image (a) to enhance the structures of interest and select a ROI within the image to duplicate and analyze (b). The macro uses a Median filter to remove background noise over the ROI (c) and after it converts the image to 32-bit (d), it runs a tubeness filter to segment tubule-like structures (e). The TTs initially appear in the foreground (white) (f) and then the foreground is inverted to bring the inter TT areas in the foreground (white) (g). The watershed is ran on the segmented image and the analysis of particles allows the quantification of each inter TT area (h). For a qualitative assessment we show the overlay of the extracted inter TT areas and the original confocal image. 
 
-
-![Github figure1](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/1cb81f10-f150-4490-9715-2df6c2df3e9d)
+![Github figure1](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/af9a1e44-fd7a-4635-8bc7-b5aea8fb3c22)
 
 In the second example we show a confocal image (a) that underwent ridge detection (Biomedical Imaging Group, Ridge Detector) (b) prior to the application of our custom macro. Similarly, the tubeness filter is applied on the binary image (c) and the image is inverted to bring the inter TT areas in the foreground. The watershed algorithm and particle analysis allow the extraction of all inter TT areas (d). An overlay of the extracted inte TT areas and the original confocal image is shown in (f).
 
-![Github figure2](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/6e9db1a9-4fd9-416d-8328-f600419d5f1b)
-
+![Github figure2](https://github.com/kgeorgo/TTs_segmentation/assets/133637188/5b532e62-3c94-4a16-9664-0da584019565)
 
 ## Disclaimer
 We present an approach to extract the TT and inter TT networks in images of primary cardiomyocytes using a combination of prebuilt ImageJ plugins, including [BioVoxxel 3D Box](https://github.com/biovoxxel/bv3dbox/blob/main/README.md), [Watershed](https://github.com/imagej/ImageJ/blob/v1.53q/src/main/java/ij/plugin/filter/EDM.java), and [Read and Write Excel](https://imagej.net/plugins/read-and-write-excel#disclaimers-and-licencing-stuff)  
-
-## License
-?
